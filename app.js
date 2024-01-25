@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
   const faqs = document.querySelectorAll(".faq");
   const searches = document.querySelectorAll(".search");
 
@@ -15,6 +15,6 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 
-document.getElementById('logo').addEventListener('click', function() {
+document.getElementById('logo').addEventListener('click', function () {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 });
